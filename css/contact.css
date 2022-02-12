@@ -1,0 +1,83 @@
+.contactHeading{
+    text-align: center;
+    margin: 3rem 0rem;
+}
+.contactFlex{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 3rem 0;
+
+}
+.sendUs{
+    margin: 0 0 0 0.5rem;
+}
+#contactForm{
+    /* background: rgb(255, 255, 255); */
+    background: linear-gradient(to bottom left, var(--primary) 5%, rgb(255, 255, 255) 5%);
+    display:flex;
+    flex-direction: column;
+    width: 25rem;
+    padding: 1rem;
+    height: fit-content;
+    /* border: 0.2px solid var(--primary); */
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 30px rgba(199, 199, 199, 0.6) ; */
+    border: 1px solid #dddddd;
+
+
+}
+#contactForm input{
+    width: 90%;
+    margin: 1rem auto;
+    padding: 0.4rem;
+    border:none;
+    font-size: 1rem;
+    font-style: thin;
+    border-bottom: 1px solid #dddddd;
+}
+#contactForm input:focus{
+    outline: none;
+    border-bottom: 1px solid var(--primary);
+}
+.contactDesc{
+    width: 40rem;
+}
+.contactDesc .location{
+    margin: 1.125rem auto;
+    width: 600px;
+    height: 2px;
+    background: rgb(0, 164, 214);
+}
+.contactDesc p{
+   font-size: 1rem;
+  
+   word-wrap: break-word;
+   text-rendering: geometricPrecision;
+}
+#contactForm input[type="submit"]{
+    border-radius: 10px;
+    background: var(--primary);
+    /* background:linear-gradient(rgb(0, 164, 214), rgb(2, 111, 138)); */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+#contactForm input[type="submit"]:hover{
+    background: #00799e;
+    /* border: 1px solid var(--primary); */
+    color: white;
+
+    
+}
+::placeholder{
+    color: rgb(214, 214, 214);
+    padding: 0.5rem 0;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
