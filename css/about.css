@@ -1,0 +1,114 @@
+
+:root{
+    --primary:rgb(0, 164, 214);
+}
+.aboutHeading, .councilHeading{
+    text-align: center;
+    margin: 2rem;
+    text-transform: capitalize;
+}
+.aboutPara{
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem 9rem 3rem 9rem;
+}
+.about{
+    
+    display: flex;
+    flex-direction: column;
+}
+.about div{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:flex-start;
+    padding: 4rem 9rem;
+    padding-top: 3rem;
+    max-width: 100%;
+    height:fit-content;
+}
+.about div h2, .about div p{
+    color: whitesmoke;
+    margin: 0 3rem;
+   
+}
+.about div p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.about .vision{
+    background:var(--primary);
+}
+.about .mission{
+    background:url("../img/missionBack.jpg");
+    background-size: cover;
+}
+.about .objectiveHeading{
+    color: var(--primary);
+}
+.about .objectivePara{
+    color: black;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    height: 100%;
+    line-height: 1.5;
+}
+
+/* servives */
+.services{
+    padding: 1rem 9rem;
+   
+}
+.services img{
+    border-radius: 5px;
+    max-width: 100%;
+}
+.services .flexRight{
+    display: flex;
+    flex-direction: row;
+}
+.services .flexRight p{
+    
+    margin-right: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.services .flexLeft{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.services .flexLeft p{
+    margin-left: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.councilContent{
+ display: grid;
+  grid-auto-rows: minmax(200px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  justify-content: center;
+  margin: 0 2rem 3rem 2rem;
+  padding: 0.3rem 2rem;
+    
+}
+.councilContent  .c1{
+    box-shadow: 1px 1px 20px -12px gray ;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-left: 3px solid var(--primary);
+    
+}
+.councilContent  .c1:hover{
+   transform: scale(1.01);
+   transition: transform 700ms;
+    
+}
+.councilSubPara{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
