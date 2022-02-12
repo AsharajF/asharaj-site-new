@@ -132,7 +132,7 @@ body{
      --h2-headings-color: rgb(41,41,41);
  }
 .heroSec{
-    background: linear-gradient(to right,rgba(10, 10, 10,0.5) 60%,transparent), url('../img/about.jpg');
+    background: linear-gradient(to right,rgba(10, 10, 10,0.5) 60%,transparent), url('../img/DSC01027.JPG');
      background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size:cover; 

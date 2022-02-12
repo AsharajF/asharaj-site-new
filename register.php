@@ -46,7 +46,7 @@ yop varchar(5) not null,
 last_college varchar(50) not null,
 mobile varchar(13) not null,
 email varchar(20) not null,
-enquiry_details varchar(300) not null
+enquiry_details varchar(100) not null
 )";
 
 if(mysqli_query($conn,$table)){

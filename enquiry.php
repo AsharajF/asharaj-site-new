@@ -18,7 +18,7 @@ $table="CREATE TABLE IF NOT EXISTS enquiry_tb(
 name varchar(40) not null,
 mobile varchar(13) not null,
 email varchar(20) not null,
-enquiry_details varchar(300) not null
+enquiry_details varchar(100) not null
 )";
 
 // $addId = "ALTER TABLE `enquiry_tb` ADD `id` INT UNSIGNED NOT NULL AUTO_INCREMENT, ADD INDEX (`id`)";
