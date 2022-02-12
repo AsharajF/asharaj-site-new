@@ -136,7 +136,7 @@ body{
      background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size:cover; 
-    /* height: 100vh; */
+    height: 100vh;
     
 }
 .heroSec .heroSecCont{
@@ -420,6 +420,7 @@ textarea{
     text-decoration: none;
     cursor: pointer;
   }
+
  /* animations */
  @keyframes notif{
      0%{
