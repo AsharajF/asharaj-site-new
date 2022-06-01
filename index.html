@@ -11,22 +11,18 @@
   
     <link href="./css/navbar.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <title>Asharaj Foundation | Home</title>
 </head>
 <body>
     <!-- header start -->
     <header>
-        <section class="nav">
-            <img src="./img/redlogo.jpg" width="50" height="50">
-            <!-- <img src="./img/DSC01027.JPG" > -->
+        <!-- <section class="nav navbar-nav">
+            <img class="navbar-brand" src="./img/redlogo.jpg" width="50" height="50">
             <div id="nav">
-                <button><a href="#" class="active nav-link" >Home</a></button>
-                <button><a href="courses.html" class="nav-link">Courses</a></button>
-                <button><a href="internship.html" class="nav-link">Internship</a></button>
-                <button><a href="./gallery.html" class="nav-link">Gallery</a></button>
-                <button><a href="./about.html" class="nav-link">About</a></button>
-                <button><a href="./contact.html" class="nav-link">Contact</a></button>
                 <button class="dropdown">
                     <a class="drop nav-link" href="#" >Services
                     <div class="dropCont">
@@ -46,7 +42,7 @@
                                </ul>
                             </li> 
                             <li class="subDrop">DHES
-                                <!-- content goes here -->
+                                
                                 <ul class="subDropCont">
                                     <li>Admission to ITI/Diploma in engineering courses</li>
                                     <li>Admission to UG courses</li>
@@ -59,7 +55,7 @@
      
                             </li>
                             <li class="subDrop">CTPI
-                                <!-- content goes here -->
+                                
                                 <ul class="subDropCont">
                                    <li>High end technology courses for placement</li>
                                    <li>Summer training/winter training</li>
@@ -73,141 +69,390 @@
                                 </ul>
                             </li>
                         </ul>
-                        <!-- <button><a href="#">AFCI</a></button>
-                        <button><a href="#">AFCI</a></button>
-                        <button><a href="#">AFCI</a></button> -->
+                        
                     </div>
                    </a>
                 
                 </button>
 
                </ul>
-
-
-
+            </div>    
+        </section>      -->
+        <nav class="navbar navbar-expand-lg" style="margin-bottom: 0;">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <!-- <span class="icon-bar" style="color: black !important;"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> -->
+                  <i class="fa fa-bars" style="font-size: 18px;"></i>
+                </button>
+                <!-- <a class="navbar-brand" href="#"> -->
+                    <img class="img-circle" src="./img/redlogo.jpg" width="50" height="50" style="margin-left: 20px;margin-top: 5px;">
+                <!-- </a> -->
+              </div>
+              <div class="collapse navbar-collapse " id="myNavbar" style="margin: 0 10px 0 10px;overflow: hidden;">
+                <ul class="nav navbar-nav nav-menu" style="background: none; color: black;">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="./courses.html">Courses</a></li>
+                  <li><a href="./internship.html">Internship</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li><a href="./gallery.html">Gallery</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="background: none;cursor: pointer;width: fit-content;margin-top: 8px;">
+                  <li>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                        <span class="glyphicon glyphicon-user">
+                        </span> Register
+                      </button>
+                    <!-- <a data-toggle="modal" data-target="#exampleModalLong">
+                    <span class="glyphicon glyphicon-user">
+                  </span> Register</a> -->
+                </li>
+                </ul>
+               
+              </div>
             </div>
-
-            <button class="regBtn" id="myBtn">Register now</button>
-    
-        </section>        
+          </nav> 
     </header>
     <!-- header end -->
    <!-- main section starts -->
     <main>
-        <section class="heroSec">
-            <div class="heroSecCont">
-                <h1>Asharaj Foundation</h1>
-                <p>A not for profit Govt registered ISO 9001:2015 certified KG to PG Career Center</p><br><br>
-                <div class="socialBtn">
-                    <button><a href="https://chat.whatsapp.com/GUL0TPI1Z1P62olSW5cxIC">Whatsapp</a></button>
-                    <button><a href="https://www.instagram.com/asharajsociety/">Instagram</a></button>
-                    <button><a href="https://m.facebook.com/100571021349063/">Facebook</a></button>
+        <div class="container-fluid heroSection" style="min-height: 450px;">
+            <div class="row" style="display: flex;align-items:center;min-height:inherit;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-white" style="color: white;font-size: 4em;">Asharaj Foundation</h1>
+                            <p class="text-white" style="color: white;">A not for profit Govt registered ISO 9001:2015 certified KG to PG Career Center</p>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 20px;"></div>
+                    <div class="row" style="padding-left: 15px;">
+                        <div class="col socialButtons">
+                            <button class="btn btn-primary"><a href="https://chat.whatsapp.com/GUL0TPI1Z1P62olSW5cxIC">Whatsapp</a></button>
+                            <button class="btn btn-primary"><a href="https://www.instagram.com/asharajsociety/">Instagram</a></button>
+                            <button class="btn btn-primary"><a href="https://m.facebook.com/100571021349063/">Facebook</a></button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-      <section class="notif">
-        <!-- <h3>NOTIFICATIONS:</h3> -->
-        <section class="notifCon">
-            <div class="col1">
-                <div>
-                    <h4>Urgent vacancies for following <button class="newUpdate">new</button></h4>
-                    <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
-                </div>
-                <div>
-                    <h4>Urgent vacancies for following <button class="newUpdate">new</button></h4>
-                    <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
-                </div>
-                <div>
-                    <h4>Urgent vacancies for following</h4>
-                    <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
-                </div>
-                
-               
-            </div>
-            <div class="col2">
-                <div>
-                    <h4>Urgent vacancies for following</h4>
-                    <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
-                </div>
-                <div>
-                    <h4>Urgent vacancies for following</h4>
-                    <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
-                </div>
-            </div>
-            <div class="col3">
-                <div>
-                    <h4>Urgent vacancies for following</h4>
-                    <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
-                </div>
-            </div>       
-        </section>
-      </section>
-     
-      <section class="companies">
-          <h4>Trusted by Students and Job-Seekers All Over India</h4>
-          <h2>Our Recruiting Partners</h2>
-          <img src="./img/bannerlogo2.jpeg" alt="companies" width="900">
-      </section>
-       
-      <section id="partnerColleges" >
-          <h2 class="partnerHeading">Our partner colleges</h2>
-          <div class="partnerColleges">
-            <p>Jain University, Bangalore</p>
-            <p>Barasati Devi Private ITI - Mahrajganj</p>
-            <p>Chandra Private ITI, Lucknow</p>
-            <p>Krishna Dev Singh Private ITI Gorakhpur</p>
-            <p>R N Yadav Private Iti Gorakhpur</p>
-            <p>Bhartia Private Iti</p>
-            <p>Adarsh Private ITI, Banda</p>
-            <p>Bhawani Private ITI Lucknow</p>
-            <p>Baba Yogendra Dev Private ITI- Gorakhpur</p>
-            <p>Maharana Institute of Technology</p>
-            <p>Kanchan Group of educational institutions reibarely</p>
-            <p>SMS Lucknow</p>
-            <p>Amity online, Noida</p>
-            <p>Sunrise Institute of Technology, unnao (UP)</p>
-            <p>Ramakant private ITI unnao</p>
-          </div>
-          
-      </section>
-        <h2 class="isoHeading">ISO 9001:2015 CERTIFIED</h2><br>
-      <section class="certify">
-        <img class="certificate" src="./img/iso.jpg" alt="iso certfied certificate" width="250" height="auto">
-
-        <div class="certify-body">
-            
-            <!-- <div>
-                <a href="#"><img src="./img/criterion_cropped.jpg" alt="criterian" width="100" height="auto"></a>
-                
-                <a href="#"><img src="./img/egac-IAF.jpg" alt="criterian" width="100" height="auto"></a>
-               <a href="#"> <img src="./img/Master-IAF.png" alt="criterian" width="100" height="auto"></a>
-
-            </div><br> -->
-            
-           <div class="certify-verify">
-               <input type="text" placeholder="certificate id" class="certificateId">
-               
-               <button class="idSubmit" type="submit">verify</button>
-           </div>
-            <div class="certify-official">
-                <p class="caplcerts">This certificate can be verified on official website <a href="www.caplcerts.in">www.caplcerts.in</a> </p>
             </div>
         </div>
-       
-          
-       
-    </section>
-    </main>
 
+        <div class="container-fluid" style="background: rgb(238, 238, 238);">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4" style="padding: 10px 0 0 10px;">
+                    <h4>Notifications:</h4>
+                </div>
+            </div>
+            <div class="row" style="min-height: 300px;max-height: 400px;overflow:auto;">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <h4>Urgent vacancies for following <button class="newUpdate">new</button></h4>
+                        <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <h4>Urgent vacancies for following <button class="newUpdate">new</button></h4>
+                        <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <h4>Urgent vacancies for following</h4>
+                        <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <h4>Urgent vacancies for following</h4>
+                        <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <h4>Urgent vacancies for following</h4>
+                        <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <h4>Urgent vacancies for following</h4>
+                        <p>a) BTech (Mechanical) freshers. Profile: Graduate Engineer Trainee. Pay Rs. 15000/- Location: Bawal (Rewari) Haryana</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+      
+      <div class="container-fluid" style="padding: 15px 0 0 0;">
+          <div class="row text-center">
+            <div class="col">
+                <h4>Trusted by Students and Job-Seekers All Over India</h4>
+            <h2>Our Recruiting Partners</h2>
+            <img src="./img/bannerlogo2.jpeg" alt="companies" style="max-width: 95%;height:auto">
+            </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row" style="padding: 15px 10px 15px 10px;">
+              <div class="col">
+                <h2 class="text-center">Our partner colleges</h2>
+              </div>
+          </div>
+          
+          <div class="row text-center">
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- <img src="https://picsum.photos/200" alt="" class="card-img-top" width="100px" height="auto"> -->
+                     <p>Jain University, Bangalore</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <!-- <img src="https://picsum.photos/200" alt="" class="card-img-top" width="100px" height="auto"> -->
+                        <p>Barasati Devi Private ITI - Mahrajganj</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Chandra Private ITI, Lucknow</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Krishna Dev Singh Private ITI Gorakhpur</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>R N Yadav Private Iti Gorakhpur</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Bhartia Private Iti</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Adarsh Private ITI, Banda</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Bhawani Private ITI Lucknow</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Baba Yogendra Dev Private ITI- Gorakhpur</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Amity online, Noida</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>SMS Lucknow</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Kanchan Group of educational institutions reibarely</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Maharana Institute of Technology</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Sunrise Institute of Technology, unnao (UP)</p>
+
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Ramakant private ITI unnao</p>
+
+
+                    </div>
+                </div>
+              </div>
+             
+          </div>
+      </div>
+
+      <div class="container " style="padding: 15px 0 20px 0;">
+          <div class="row">
+            <h2 class="text-center">ISO 9001:2015 CERTIFIED</h2><br>
+          </div>
+          <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+                <img class="certificate" src="./img/iso.jpg" alt="iso certfied certificate" style="max-width: 100%;width:250px;height: auto">
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-4">
+               <form action="" style="display: flex;justify-content: start; padding-top: 10px;">
+                <input type="text" placeholder="certificate id" class="form-control">
+                <button class=" btn btn-primary" type="submit">Verify</button>
+               </form> <br>
+               <div class="certify-official">
+                <p class="caplcerts">This certificate can be verified on official website <a href="www.caplcerts.in">www.caplcerts.in</a> </p>
+                </div>
+              </div>
+              
+              <!-- <div class="col-sm-12 col-md-4 col-lg-3">
+                <a href="#"><img src="./img/criterion_cropped.jpg" alt="criterian" width="100" height="auto"></a>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 ">
+                <a href="#"><img src="./img/egac-IAF.jpg" alt="criterian" width="100" height="auto"></a>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-3 text-center">
+                <a href="#"> <img src="./img/Master-IAF.png" alt="criterian" width="100" height="auto"></a>
+              </div> -->
+          </div>
+      </div><br><br>
+       
+    </main>
 
     <!-- <div data-aos="fade-up" class="quickAccessBar">
        <button>Book a session</button> 
     </div> -->
     <!-- main ends -->
 
-    <!-- modal -->
-<!-- <button id="myBtn">ask?</button> -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div> -->
+        <div class="modal-body" style="padding: 20px 30px 20px 30px;">
+            <form action="./register.php" method="POST" id="enquiryform">
+                <div class="form-group">
+                 <label>Name:</label>
+                 <input type="text" placeholder="full name" name='name' class="form-control">
+                </div>
+                <div class="form-group">
+                 <label>Course/Highest qualification:</label>
+                 <input type="text" class="form-control" placeholder="course/highest qualification" name='course' list="qualifications">
+                 <datalist id="qualifications">
+                     <option value="job seeker"></option>
+                     <option value="class 1"></option>
+                     <option value="class 2"></option>
+                     <option value="class 3"></option> <option value="class 4"></option>
+                     <option value="class 5"></option>
+                     <option value="class 6"></option>
+                     <option value="class 7"></option>
+                     <option value="class 8"></option>
+                     <option value="class 9"></option>
+                     <option value="class 10"></option>
+                     <option value="11"></option>
+                     <option value="12"></option>
+                     <option value="IIT JEE"></option>
+                     <option value="NEET"></option>
+                     <option value="RIMC"></option>
+                     <option value="SAINIK SCHOOL ENTRANCE"></option>
+                 </datalist>
+                </div>
+                <div class="form-group">
+                 <label>Year of passing:</label>
+                 <input type="text" class="form-control" placeholder="year of passing" list="yearofpassing" name='yop'>
+                 <datalist id="yearofpassing">
+                     <option value="2010">2010</option>
+                     <option value="2011">2011</option>
+                     <option value="2012">2012</option>
+                     <option value="2013">2013</option>
+                     <option value="2014">2014</option>
+                     <option value="2015">2015</option>
+                     <option value="2016">2016</option>
+                     <option value="2017">2017</option>
+                     <option value="2018">2018</option>
+                     <option value="2019">2019</option>
+                     <option value="2020">2020</option>
+                     <option value="2021">2021</option>
+                     <option value="2022">2022</option>
+                     <option value="2023">2023</option>
+                     <option value="2024">2024</option>
+                     <option value="2025">2025</option>
+                   
+                 </datalist>
+                </div>
+                <div class="form-group">
+                 <label>College/School name:</label>
+                 <input type="text" class="form-control" placeholder="last college/school name" name='school'>
+                </div>
+                <div class="form-group">
+                 <label>Email:</label>
+                 <input type="email" class="form-control" placeholder="email" name='email'> 
+                </div>
+                <div class="form-group">
+                 <label>Phone(prefferably whatsapp):</label>
+                 <input type="tel" class="form-control" placeholder="phone with whatsapp" name='phone'>
+                </div>
+                <div class="form-group">
+                 <label>Message:</label>
+                 <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="message.." name='message'></textarea>
+                </div>
+                <!-- <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div> -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+           
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -216,52 +461,43 @@
   <div  class="modal-content">
     <span class="close">&times;</span>
    <form action="./register.php" method="POST" id="enquiryform">
-       <p>Name:</p>
-       <input type="text" placeholder="full name" name='name'>
-       <p>Course/highest qualification:</p>
-       <input type="text" placeholder="course/highest qualification" name='course' list="qualifications">
-       <datalist id="qualifications">
-           <option value="job seeker"></option>
-           <option value="class 1"></option>
-           <option value="class 2"></option>
-           <option value="class 3"></option> <option value="class 4"></option>
-           <option value="class 5"></option>
-           <option value="class 6"></option>
-           <option value="class 7"></option>
-           <option value="class 8"></option>
-           <option value="class 9"></option>
-           <option value="class 10"></option>
-           <option value="11"></option>
-           <option value="12"></option>
-           <option value="IIT JEE"></option>
-           <option value="NEET"></option>
-           <option value="RIMC"></option>
-           <option value="SAINIK SCHOOL ENTRANCE"></option>
-       </datalist>
-       <p>Year of passing:</p>
-       <input type="text" placeholder="year of passing" list="yearofpassing" name='yop'>
-       <datalist id="yearofpassing">
-           <option value="2010">2010</option>
-           <option value="2011">2011</option>
-           <option value="2012">2012</option>
-           <option value="2013">2013</option>
-           <option value="2014">2014</option>
-           <option value="2015">2015</option>
-           <option value="2016">2016</option>
-           <option value="2017">2017</option>
-           <option value="2018">2018</option>
-           <option value="2019">2019</option>
-           <option value="2020">2020</option>
-           <option value="2021">2021</option>
-           <option value="2022">2022</option>
-           <option value="2023">2023</option>
-           <option value="2024">2024</option>
-           <option value="2025">2025</option>
-         
-       </datalist>
-      
-        <!-- <select name="yearofpassing" id="yearofpassing">
-
+       <div class="form-group">
+        <label>Name:</label>
+        <input type="text" placeholder="full name" name='name' class="form-control">
+       </div>
+       <div class="form-group">
+        <label>Course/Highest qualification:</label>
+        <input type="text" class="form-control" placeholder="course/highest qualification" name='course' list="qualifications">
+        <datalist id="qualifications">
+            <option value="job seeker"></option>
+            <option value="class 1"></option>
+            <option value="class 2"></option>
+            <option value="class 3"></option> <option value="class 4"></option>
+            <option value="class 5"></option>
+            <option value="class 6"></option>
+            <option value="class 7"></option>
+            <option value="class 8"></option>
+            <option value="class 9"></option>
+            <option value="class 10"></option>
+            <option value="11"></option>
+            <option value="12"></option>
+            <option value="IIT JEE"></option>
+            <option value="NEET"></option>
+            <option value="RIMC"></option>
+            <option value="SAINIK SCHOOL ENTRANCE"></option>
+        </datalist>
+       </div>
+       <div class="form-group">
+        <label>Year of passing:</label>
+        <input type="text" class="form-control" placeholder="year of passing" list="yearofpassing" name='yop'>
+        <datalist id="yearofpassing">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
             <option value="2017">2017</option>
             <option value="2018">2018</option>
             <option value="2019">2019</option>
@@ -270,89 +506,95 @@
             <option value="2022">2022</option>
             <option value="2023">2023</option>
             <option value="2024">2024</option>
-        </select> -->
-        <p>Last college/school name :</p>
-       <input type="text" placeholder="last college/school name" name='school'>
-       <p>Email:</p>
-       <input type="email" placeholder="email" name='email'> 
-       <p>Phone(prefferably whatsapp):</p>
-       <input type="tel" placeholder="phone with whatsapp" name='phone'>
-       <p>Message:</p>
-       <textarea name="message" id="message" cols="30" rows="10" placeholder="message.." name='message'></textarea>
-       <input type="submit">
+            <option value="2025">2025</option>
+          
+        </datalist>
+       </div>
+       <div class="form-group">
+        <label>Last college/school name :</label>
+        <input type="text" class="form-control" placeholder="last college/school name" name='school'>
+       </div>
+       <div class="form-group">
+        <label>Email:</label>
+        <input type="email" class="form-control" placeholder="email" name='email'> 
+       </div>
+       <div class="form-group">
+        <label>Phone(prefferably whatsapp):</label>
+        <input type="tel" class="form-control" placeholder="phone with whatsapp" name='phone'>
+       </div>
+       <div class="form-group">
+        <label>Message:</label>
+        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="message.." name='message'></textarea>
+       </div>
+       <div class="form-group">
+        <input type="submit" class="form-control">
+       </div>
    </form>
   </div>
 
 </div>
     <!-- footer starts -->
-    <footer class="footer">
-        <section>
-            <div class="col1">
-                <h3>Address</h3><br>
+    <div class="container-fluid bg-primary" style="min-height: 300px;">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-6">
+                <h3>Address</h3>
                 <address>
                    
-                        Whatsapp: 8303171186 / 9554480889 <br>
-                        Email: asharaj.foundation@gmail.com
-                        Asharaj Foundation #D2/525, Sector ‘L’, Aashiyana,
-                         Lucknow (UP) – 226012
-                    
-                </address><br>
-                <div>
-                   <a class="map" href="https://maps.app.goo.gl/HieJciq8GFMQiirFA" target="_blank">  <i class="fa fa-map-marker" aria-hidden="true"></i> Map</a>
-                </div>
+                    Whatsapp: 8303171186 / 9554480889 <br>
+                    Email: asharaj.foundation@gmail.com
+                    Asharaj Foundation #D2/525, Sector ‘L’, Aashiyana,
+                     Lucknow (UP) – 226012
+                
+            </address>
+            <div>
+                <a class="map" href="https://maps.app.goo.gl/HieJciq8GFMQiirFA" target="_blank">  <i class="fa fa-map-marker" aria-hidden="true"></i> Map</a>
+             </div>
             </div>
-            <div class="col2">
-                <h3>Social Media</h3><br>
-                <div class="footerSocial">
-                    <ul>
-                        <li><a href="https://m.facebook.com/100571021349063/"> Facebook</a></li>
-                        <li><a href="https://twitter.com/AsharajSociety?t=4kDJHXXOHeEkjSIj-gXu8w&s=08">  Twitter</a></li>
-                        <li><a href="https://www.instagram.com/asharajsociety/">Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/company/asharajfoundation"> Linkedin</a></li>
-                    </ul>
-                </div>
+            <div class="col-sm-12 col-md-4 col-lg-2">
+                <h3>Quick Links</h3>
+                <ul class="quickLinks">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="courses.php">Courses</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                </ul>
             </div>
-            <div class="col3">
-                <h3>Navigation Links</h3><br>
-                <div class="footerNav">
-                    <ul>
-                        <li><a href="javascript:void(0)">Home</a></li>
-                        <li><a href="./courses.html">Courses</a></li>
-                        <li><a href="./internship.html">Internship</a></li>
-                        <li><a href="./gallery.html">Gallery</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>    
+            <div class="col-sm-12 col-md-4 col-lg-2">
+                <h3>Follow Us</h3>
+                <ul class="followUs">
+                    <li><a href="https://m.facebook.com/100571021349063/"> <i class="fa fa-facebook"></i>  Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+                    <li><a href="https://www.instagram.com/asharajsociety/"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC-lQlZJWVXJZ6_Xv9tJqxlg"><i class="fa fa-youtube"></i> Youtube</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-2">
+                <h3>Legal</h3>
+                <ul class="legalNote">
+                    <li><a href="terms.php">Terms & Conditions</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
+                    <li><a href="disclaimer.php">Disclaimer</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
 
-            <div class="col4">
-                <h3>Legal</h3><br>
-                <div class="footerNav">
-                    <ul>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        
-                    </ul>
-                 </div>
-            </div>     
-            
-        </section><br>
-         <p class="copyright"><small>&copy; 2021 Asharaj Foundation. All Rights Reserved.</small><p/>
-    </footer>
-
-
-
-     
+   <div class="container-fluid bg-primary">
+    <div class="row ">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <p class="text-center" style="font-size: 0.rem;">
+                Copyright &copy; Asharaj Foundation. All Rights Reserved
+            </p>
+        </div>
+    </div>
+   </div>
+    
     <script src="./js/enquiryModal.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
-    <!-- <script type="module">
-        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
-      
-        const swiper = new Swiper(...);
-      </script> -->
 </body>
 </html>

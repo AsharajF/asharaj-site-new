@@ -75,9 +75,9 @@
     
 }
 ::placeholder{
-    color: rgb(214, 214, 214);
+    color: rgb(63, 63, 63);
     padding: 0.5rem 0;
-    font-size: 0.75rem;
-    font-weight: 300;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
